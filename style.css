@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: darkblue;
+}
+.img-card{
+    width: 90%;
+    height: 90%;
+    background-color: coral;
+}
+.card{
+    gap: 3rem;
+    margin-top: 3rem;
+    width: 350px;
+    background-color: darkred;
+}
